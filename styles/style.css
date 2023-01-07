@@ -46,12 +46,10 @@ main {
   display: flex;
   margin-top: 130px;
   align-items: center;
-  justify-content: center ;
+  justify-content: center;
   gap: 70px;
 }
-.section-1-content {
-  
-}
+
 .section-1-title {
   font-size: 25px;
   color: #151414;
@@ -62,7 +60,7 @@ main {
   font-size: 16px;
   color: #444343;
   margin-bottom: 16px;
-  padding:0 ;
+  padding: 0;
 }
 .section-1-li {
   font-size: 16px;
@@ -70,6 +68,7 @@ main {
   list-style: none;
   text-align: left;
   padding: 0;
+  white-space: nowrap;
 }
 .section-1-icon {
   color: rgba(22, 216, 135, 100%);
@@ -89,11 +88,9 @@ main {
   display: flex;
   gap: 86px;
   text-align: center;
-  
 }
 .section-2 img {
   margin-bottom: 24px;
-  
 }
 .section-2 h4 {
   color: #151414;
@@ -117,15 +114,15 @@ main {
   height: 300px;
   color: #ffffff;
 }
-.section-3-content{
-  padding-top:60px;
+.section-3-content {
+  padding-top: 60px;
   padding-left: 64px;
   padding-bottom: 60px;
   vertical-align: middle;
 }
 .section-3 h3 {
   font-size: 20px;
-  font-weight: 700; 
+  font-weight: 700;
   align-items: center;
   margin-bottom: 10px;
 }
@@ -173,8 +170,8 @@ footer {
   font-size: 18px;
   font-weight: 400;
   background-color: #151414;
-  border: 1px solid #FFFFFF;
-  border-radius:5px ;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
 }
 .footer-content-2 input[type="button"] {
   padding: 20px 36px;
